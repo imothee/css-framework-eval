@@ -1,0 +1,26 @@
+@import '~foundation-sites/scss/foundation';
+
+@include add-foundation-colors;
+@include foundation-global-styles;
+@include foundation-button;
+@include foundation-callout;
+@include foundation-flex-grid;
+@include foundation-flex-classes;
+@include foundation-forms;
+@include foundation-menu;
+@include foundation-top-bar;
+@include foundation-typography;
+
+.bg-primary {
+  background-color: #ccdfff;
+}
+
+.bg-gray {
+  background-color: #eeeeee;
+}
+.margin-20-top {
+  margin-top: 20;
+}
+.footer {
+  background-color: #dddddd;
+}

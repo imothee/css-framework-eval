@@ -1,0 +1,49 @@
+@import '~normalize.css';
+
+@import '~milligram/src/_Color';
+@import '~milligram/src/_Base';
+@import '~milligram/src/_Button';
+@import '~milligram/src/_Form';
+@import '~milligram/src/_Grid';
+@import '~milligram/src/_Image';
+@import '~milligram/src/_Link';
+@import '~milligram/src/_Spacing';
+@import '~milligram/src/_Typography';
+
+.navigation {
+  border-bottom: .1rem solid #d1d1d1;
+  display: block;
+  height: 5.2rem;
+}
+
+.navigation .navigation-title {
+  display: inline;
+  font-size: 1.8rem;
+  line-height: 5.2rem;
+  padding: 0;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: $color-quaternary;
+}
+
+.main  {
+  background-color: $color-tertiary;
+}
+
+.box {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.footer {
+  background-color: $color-quaternary;
+  text-align: center;
+}
+
+.margin-20-top {
+  margin-top: 20;
+}

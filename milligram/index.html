@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <nav class="navigation">
+      <header class="container">
+        <a class="navigation-title">Example Blog</a>
+        <a class="navigation-link" href="#">Home</a>
+        <a class="navigation-link" href="#">About</a>
+      </header>
+    </nav>
+
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+            <div class="column">
+              <h1 class="title">
+                Blog title
+              </h1>
+              <h2 class="subtitle">
+                Blog subtitle
+              </h2>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="main">
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <div class="box">
+              <h2>Bloggy McBlogface</h2>
+              <p class="subheader">Today, Date Monthy</p>
+
+              <div class="row">
+                <div class="column column-20">
+                  <img src="http://placehold.it/300x300" />
+                </div>
+                <div class="column">
+                  <p>Lorem Ipsum Hereum</p>
+                </div>
+              </div>
+
+              <div class="row margin-20-top">
+                <div class="column column-50">
+                  <h3>Comments</h3>
+                  <form>
+                    <fieldset>
+                      <label for="nameField">Name</label>
+                      <input type="text" placeholder="" id="nameField">
+                      <label for="commentField">Comment</label>
+                      <textarea placeholder="" id="commentField"></textarea>
+                      <div class="float-left">
+                        Is this spam?
+                        <input type="radio" name="spam" value="Yes" id="spamyes" required><label class="label-inline" for="spamyes">Yes</label>
+                        <input type="radio" name="spam" value="No" id="spamno"><label class="label-inline" for="spamno">No</label>
+                      </div>
+                      <input class="button-primary" type="submit" value="Submit">
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <p class="margin-20-top">Made using Milligram</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+  </body>
+</html>
